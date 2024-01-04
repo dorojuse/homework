@@ -1,0 +1,45 @@
+html {
+  font-family: "Quicksand", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  background-color: rgb(238, 236, 236);
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+}
+
+.asics,
+.adidas,
+.new {
+  background-color: white;
+  border-radius: 5%;
+}
+
+.image-1 {
+  background-image: url(../homework/images/blue-asics.jpg);
+  background-size: cover;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
+}
+.image-2 {
+  background-image: url(../homework/images/white-adidas.jpg);
+  background-size: cover;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
+}
+
+.image-3 {
+  background-image: url(../homework/images/green-nike.jpg);
+  background-size: cover;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
+}
