@@ -7,8 +7,12 @@ html {
 
 main {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: minmax(200px, 400px) minmax(200px, 400px) minmax(
+      200px,
+      400px
+    );
   gap: 2rem;
+  padding: 2rem;
 }
 
 .asics,
@@ -21,25 +25,68 @@ main {
 .image-1 {
   background-image: url(../homework/images/blue-asics.jpg);
   background-size: cover;
-  padding-top: 6rem;
-  padding-bottom: 6rem;
+  padding-top: 5rem;
+  padding-bottom: 8rem;
   border-top-left-radius: 5%;
   border-top-right-radius: 5%;
+  position: relative;
+}
+figcaption {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  font-size: 0.5rem;
+  color: grey;
+}
+
+aside {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background-color: white;
+  padding: 3px;
 }
 .image-2 {
   background-image: url(../homework/images/white-adidas.jpg);
   background-size: cover;
-  padding-top: 6rem;
-  padding-bottom: 6rem;
+  padding-top: 5rem;
+  padding-bottom: 8rem;
   border-top-left-radius: 5%;
   border-top-right-radius: 5%;
+  position: relative;
 }
 
 .image-3 {
   background-image: url(../homework/images/green-nike.jpg);
   background-size: cover;
-  padding-top: 6rem;
-  padding-bottom: 6rem;
+  padding-top: 5rem;
+  padding-bottom: 8rem;
   border-top-left-radius: 5%;
   border-top-right-radius: 5%;
+  position: relative;
+}
+.content {
+  margin: 1rem;
+  font-size: 0.7rem;
+  line-height: 150%;
+  color: grey;
+}
+h1 {
+  font-weight: 700;
+  color: black;
+  font-size: 1.2rem;
+  line-height: normal;
+}
+.info {
+  margin: 1rem;
+  padding: 1rem;
+  background-color: rgb(238, 236, 236);
+  border-radius: 5%;
+}
+.price {
+  background-color: white;
+  border: none;
+  padding: 0.8rem;
+  text-align: center;
+  border-radius: 7%;
 }
