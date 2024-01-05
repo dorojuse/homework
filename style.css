@@ -19,12 +19,24 @@ main {
 .adidas,
 .new {
   background-color: white;
-  border-radius: 5%;
+  border-radius: 1rem;
 }
-
 .image-1 {
   background-image: url(https://camo.githubusercontent.com/87ad8bc6039d41cc5d1c6844479e1088fc078b026652af8c1c9cf120eac12015/68747470733a2f2f696d616765732e756e73706c6173682e636f6d2f70686f746f2d313536303037323831302d3163666662303966616630663f697869643d4d6e77784d6a4133664442384d48787761473930627931775957646c664878386647567566444238664878382669786c69623d72622d312e322e31266175746f3d666f726d6174266669743d63726f7026773d3134373026713d3830),
     linear-gradient(#696969 50%, white);
+}
+.image-2 {
+  background-image: url(https://camo.githubusercontent.com/00ea0b9672f5f76a109734f4f276f467c30fc00a8bd4bded9ab2899cc2d23c29/68747470733a2f2f696d616765732e756e73706c6173682e636f6d2f666c61676765642f70686f746f2d313535363633373634302d3263383064333230316265383f69786c69623d72622d312e322e3126697869643d4d6e77784d6a4133664442384d48787761473930627931775957646c66487838664756756644423866487838266175746f3d666f726d6174266669743d63726f7026773d3134373026713d3830),
+    linear-gradient(rgb(162, 153, 153) 50%, white);
+}
+
+.image-3 {
+  background-image: url(https://camo.githubusercontent.com/581cb6ca8876325a1feb1341cc03e5e881325aab130ebb18b6bb024e131a5b92/68747470733a2f2f696d616765732e756e73706c6173682e636f6d2f70686f746f2d313533393138353434313735352d3736393437336132333537303f697869643d4d6e77784d6a4133664442384d48787761473930627931775957646c664878386647567566444238664878382669786c69623d72622d312e322e31266175746f3d666f726d6174266669743d63726f7026773d3134373126713d3830),
+    linear-gradient(#696969 50%, white);
+}
+.image-1,
+.image-2,
+.image-3 {
   background-size: cover;
   background-blend-mode: overlay;
   padding-top: 5rem;
@@ -33,6 +45,7 @@ main {
   border-top-right-radius: 5%;
   position: relative;
 }
+
 figcaption {
   position: absolute;
   bottom: 15px;
@@ -40,7 +53,6 @@ figcaption {
   font-size: 0.5rem;
   color: grey;
 }
-
 aside {
   position: absolute;
   top: 7px;
@@ -53,29 +65,7 @@ aside {
   font-weight: 550;
   color: rgb(31, 30, 30);
 }
-.image-2 {
-  background-image: url(https://camo.githubusercontent.com/00ea0b9672f5f76a109734f4f276f467c30fc00a8bd4bded9ab2899cc2d23c29/68747470733a2f2f696d616765732e756e73706c6173682e636f6d2f666c61676765642f70686f746f2d313535363633373634302d3263383064333230316265383f69786c69623d72622d312e322e3126697869643d4d6e77784d6a4133664442384d48787761473930627931775957646c66487838664756756644423866487838266175746f3d666f726d6174266669743d63726f7026773d3134373026713d3830),
-    linear-gradient(rgb(162, 153, 153) 50%, white);
-  background-blend-mode: overlay;
-  background-size: cover;
-  padding-top: 5rem;
-  padding-bottom: 8rem;
-  border-top-left-radius: 5%;
-  border-top-right-radius: 5%;
-  position: relative;
-}
 
-.image-3 {
-  background-image: url(https://camo.githubusercontent.com/581cb6ca8876325a1feb1341cc03e5e881325aab130ebb18b6bb024e131a5b92/68747470733a2f2f696d616765732e756e73706c6173682e636f6d2f70686f746f2d313533393138353434313735352d3736393437336132333537303f697869643d4d6e77784d6a4133664442384d48787761473930627931775957646c664878386647567566444238664878382669786c69623d72622d312e322e31266175746f3d666f726d6174266669743d63726f7026773d3134373126713d3830),
-    linear-gradient(#696969 50%, white);
-  background-blend-mode: overlay;
-  background-size: cover;
-  padding-top: 5rem;
-  padding-bottom: 8rem;
-  border-top-left-radius: 5%;
-  border-top-right-radius: 5%;
-  position: relative;
-}
 .content {
   margin: 0.8rem;
   font-size: 0.7rem;
@@ -90,7 +80,7 @@ h1 {
 }
 .info {
   margin: 0.8rem;
-  padding: 1rem;
+  padding: 0.8rem;
   background-color: rgb(238, 236, 236);
   border-radius: 5%;
   font-size: 0.8rem;
@@ -103,33 +93,15 @@ h1 {
   text-align: center;
   border-radius: 0.3rem;
   font-size: 0.9rem;
-  font-weight: 600;
-  color: rgb(31, 30, 30);
+  font-weight: 550;
+  color: #696969;
 }
 .cart {
-  background-color: rgb(48, 62, 218);
+  background-color: rgb(64, 73, 180);
   color: white;
   text-align: center;
   padding: 0.5rem;
   border-radius: 0.3rem;
-}
-.blue {
-  height: 1.2rem;
-  width: 1.2rem;
-  background-color: rgb(29, 57, 197);
-  border-radius: 50%;
-}
-.red {
-  height: 1.2rem;
-  width: 1.2rem;
-  background-color: rgb(183, 22, 22);
-  border-radius: 50%;
-}
-.black {
-  height: 1.2rem;
-  width: 1.2rem;
-  background-color: black;
-  border-radius: 50%;
 }
 .colors-1,
 .colors-2,
@@ -139,47 +111,43 @@ h1 {
   align-items: center;
   margin-bottom: 1.5rem;
 }
-.green-black {
-  height: 1.2rem;
-  width: 1.2rem;
-  background: linear-gradient(to right, rgb(96, 137, 14) 50%, black 50%);
-  border-radius: 50%;
-}
-.blue-black {
-  height: 1.2rem;
-  width: 1.2rem;
-  background: linear-gradient(to right, rgb(68, 90, 185) 50%, black 50%);
-  border-radius: 50%;
-}
-.pink-black {
-  height: 1.2rem;
-  width: 1.2rem;
-  background: linear-gradient(to right, rgb(169, 67, 138) 50%, black 50%);
-  border-radius: 50%;
-}
-.red-white {
-  height: 1.2rem;
-  width: 1.2rem;
-  background: linear-gradient(to right, rgb(161, 48, 48) 50%, white 50%);
-  border-radius: 50%;
-}
+.blue,
+.red,
+.black,
+.green-black,
+.blue-black,
+.pink-black,
+.red-white,
 .black-white {
   height: 1.2rem;
   width: 1.2rem;
-  background: linear-gradient(to right, black 50%, white 50%);
   border-radius: 50%;
 }
-.arrow {
-  border-bottom: 2px solid #000;
-  border-right: 2px solid #000;
-  position: absolute;
-  top: 50%;
-  right: 10px;
-  width: 5px;
-  height: 5px;
-  transform: rotate(45deg) translateY(-50%);
-  transform-origin: right;
+.blue {
+  background-color: rgb(29, 57, 197);
 }
+.red {
+  background-color: rgb(183, 22, 22);
+}
+.black {
+  background-color: black;
+}
+.green-black {
+  background: linear-gradient(to right, rgb(96, 137, 14) 50%, black 50%);
+}
+.blue-black {
+  background: linear-gradient(to right, rgb(68, 90, 185) 50%, black 50%);
+}
+.pink-black {
+  background: linear-gradient(to right, rgb(169, 67, 138) 50%, black 50%);
+}
+.red-white {
+  background: linear-gradient(to right, rgb(161, 48, 48) 50%, white 50%);
+}
+.black-white {
+  background: linear-gradient(to right, black 50%, white 50%);
+}
+
 .input {
   position: relative;
   display: inline-block;
@@ -193,10 +161,21 @@ input {
   font-family: inherit;
   font-size: 0.7rem;
 }
+.arrow {
+  border-bottom: 1.5px solid #000;
+  border-right: 1.5px solid #000;
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  width: 4px;
+  height: 4px;
+  transform: rotate(45deg) translateY(-50%);
+  transform-origin: right;
+}
 .inline-block {
   display: inline-block;
 }
 .flex {
   display: flex;
-  gap: 20px;
+  gap: 3rem;
 }
