@@ -23,8 +23,10 @@ main {
 }
 
 .image-1 {
-  background-image: url(../homework/images/blue-asics.jpg);
+  background-image: url(../homework/images/blue-asics.jpg),
+    linear-gradient(#696969 50%, white);
   background-size: cover;
+  background-blend-mode: overlay;
   padding-top: 5rem;
   padding-bottom: 8rem;
   border-top-left-radius: 5%;
@@ -33,7 +35,7 @@ main {
 }
 figcaption {
   position: absolute;
-  bottom: 10px;
+  bottom: 15px;
   left: 10px;
   font-size: 0.5rem;
   color: grey;
@@ -47,7 +49,9 @@ aside {
   padding: 3px;
 }
 .image-2 {
-  background-image: url(../homework/images/white-adidas.jpg);
+  background-image: url(../homework/images/white-adidas.jpg),
+    linear-gradient(rgb(162, 153, 153) 50%, white);
+  background-blend-mode: overlay;
   background-size: cover;
   padding-top: 5rem;
   padding-bottom: 8rem;
@@ -57,7 +61,9 @@ aside {
 }
 
 .image-3 {
-  background-image: url(../homework/images/green-nike.jpg);
+  background-image: url(../homework/images/green-nike.jpg),
+    linear-gradient(#696969 50%, white);
+  background-blend-mode: overlay;
   background-size: cover;
   padding-top: 5rem;
   padding-bottom: 8rem;
@@ -82,11 +88,106 @@ h1 {
   padding: 1rem;
   background-color: rgb(238, 236, 236);
   border-radius: 5%;
+  font-size: 0.9rem;
+  color: grey;
 }
 .price {
   background-color: white;
   border: none;
   padding: 0.8rem;
   text-align: center;
-  border-radius: 7%;
+  border-radius: 0.3rem;
+  color: black;
+  font-size: 1rem;
+  font-weight: 700;
+}
+.cart {
+  background-color: rgb(48, 62, 218);
+  color: white;
+  text-align: center;
+  padding: 0.8rem;
+  border-radius: 0.3rem;
+}
+.blue {
+  height: 1.5rem;
+  width: 1.5rem;
+  background-color: blue;
+  border-radius: 50%;
+}
+.red {
+  height: 1.5rem;
+  width: 1.5rem;
+  background-color: red;
+  border-radius: 50%;
+}
+.black {
+  height: 1.5rem;
+  width: 1.5rem;
+  background-color: black;
+  border-radius: 50%;
+}
+.colors-1,
+.colors-2,
+.colors-3 {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.green-black {
+  height: 1.5rem;
+  width: 1.5rem;
+  background: linear-gradient(to right, green 50%, black 50%);
+  border-radius: 50%;
+}
+.blue-black {
+  height: 1.5rem;
+  width: 1.5rem;
+  background: linear-gradient(to right, blue 50%, black 50%);
+  border-radius: 50%;
+}
+.pink-black {
+  height: 1.5rem;
+  width: 1.5rem;
+  background: linear-gradient(to right, hotpink 50%, black 50%);
+  border-radius: 50%;
+}
+.red-white {
+  height: 1.5rem;
+  width: 1.5rem;
+  background: linear-gradient(to right, red 50%, white 50%);
+  border-radius: 50%;
+}
+.black-white {
+  height: 1.5rem;
+  width: 1.5rem;
+  background: linear-gradient(to right, black 50%, white 50%);
+  border-radius: 50%;
+}
+.arrow {
+  border-bottom: 2px solid #000;
+  border-right: 2px solid #000;
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  width: 5px;
+  height: 5px;
+  transform: rotate(45deg) translateY(-50%);
+  transform-origin: right;
+}
+.input {
+  position: relative;
+  display: inline-block;
+}
+input {
+  border: none;
+  padding: 0.3rem;
+  width: 3rem;
+  border-radius: 0.3rem;
+}
+.inline-block {
+  display: inline-block;
+}
+.flex {
+  display: flex;
+  gap: 20px;
 }
