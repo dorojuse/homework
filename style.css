@@ -23,7 +23,7 @@ main {
 }
 
 .image-1 {
-  background-image: url(../homework/images/blue-asics.jpg),
+  background-image: url(https://camo.githubusercontent.com/87ad8bc6039d41cc5d1c6844479e1088fc078b026652af8c1c9cf120eac12015/68747470733a2f2f696d616765732e756e73706c6173682e636f6d2f70686f746f2d313536303037323831302d3163666662303966616630663f697869643d4d6e77784d6a4133664442384d48787761473930627931775957646c664878386647567566444238664878382669786c69623d72622d312e322e31266175746f3d666f726d6174266669743d63726f7026773d3134373026713d3830),
     linear-gradient(#696969 50%, white);
   background-size: cover;
   background-blend-mode: overlay;
@@ -43,13 +43,18 @@ figcaption {
 
 aside {
   position: absolute;
-  top: 5px;
-  right: 5px;
-  background-color: white;
+  top: 7px;
+  right: 7px;
+  background-color: rgb(221, 208, 208, 0.8);
   padding: 3px;
+  border-radius: 0.3rem;
+  border: none;
+  font-size: 0.8rem;
+  font-weight: 550;
+  color: rgb(31, 30, 30);
 }
 .image-2 {
-  background-image: url(../homework/images/white-adidas.jpg),
+  background-image: url(https://camo.githubusercontent.com/00ea0b9672f5f76a109734f4f276f467c30fc00a8bd4bded9ab2899cc2d23c29/68747470733a2f2f696d616765732e756e73706c6173682e636f6d2f666c61676765642f70686f746f2d313535363633373634302d3263383064333230316265383f69786c69623d72622d312e322e3126697869643d4d6e77784d6a4133664442384d48787761473930627931775957646c66487838664756756644423866487838266175746f3d666f726d6174266669743d63726f7026773d3134373026713d3830),
     linear-gradient(rgb(162, 153, 153) 50%, white);
   background-blend-mode: overlay;
   background-size: cover;
@@ -61,7 +66,7 @@ aside {
 }
 
 .image-3 {
-  background-image: url(../homework/images/green-nike.jpg),
+  background-image: url(https://camo.githubusercontent.com/581cb6ca8876325a1feb1341cc03e5e881325aab130ebb18b6bb024e131a5b92/68747470733a2f2f696d616765732e756e73706c6173682e636f6d2f70686f746f2d313533393138353434313735352d3736393437336132333537303f697869643d4d6e77784d6a4133664442384d48787761473930627931775957646c664878386647567566444238664878382669786c69623d72622d312e322e31266175746f3d666f726d6174266669743d63726f7026773d3134373126713d3830),
     linear-gradient(#696969 50%, white);
   background-blend-mode: overlay;
   background-size: cover;
@@ -111,13 +116,13 @@ h1 {
 .blue {
   height: 1.5rem;
   width: 1.5rem;
-  background-color: blue;
+  background-color: rgb(29, 57, 197);
   border-radius: 50%;
 }
 .red {
   height: 1.5rem;
   width: 1.5rem;
-  background-color: red;
+  background-color: rgb(183, 22, 22);
   border-radius: 50%;
 }
 .black {
@@ -136,25 +141,25 @@ h1 {
 .green-black {
   height: 1.5rem;
   width: 1.5rem;
-  background: linear-gradient(to right, green 50%, black 50%);
+  background: linear-gradient(to right, rgb(96, 137, 14) 50%, black 50%);
   border-radius: 50%;
 }
 .blue-black {
   height: 1.5rem;
   width: 1.5rem;
-  background: linear-gradient(to right, blue 50%, black 50%);
+  background: linear-gradient(to right, rgb(68, 90, 185) 50%, black 50%);
   border-radius: 50%;
 }
 .pink-black {
   height: 1.5rem;
   width: 1.5rem;
-  background: linear-gradient(to right, hotpink 50%, black 50%);
+  background: linear-gradient(to right, rgb(169, 67, 138) 50%, black 50%);
   border-radius: 50%;
 }
 .red-white {
   height: 1.5rem;
   width: 1.5rem;
-  background: linear-gradient(to right, red 50%, white 50%);
+  background: linear-gradient(to right, rgb(161, 48, 48) 50%, white 50%);
   border-radius: 50%;
 }
 .black-white {
